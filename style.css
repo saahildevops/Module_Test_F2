@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Nav_Bar{
+    width: 100%;
+}
+#Nav_Heading{
+    margin: 0px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.Search_Section{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#search{
+    padding: 6px;
+    margin-right: 10px;
+    width: 85vw;
+}
+#Search_Button{
+    width:120px;
+    height:30px;
+    background-color: black;
+    color: white;
+}
+
+.Sort_Section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Sort_Buttons{
+    background-color: black;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Table_main{
+    padding: 10px;
+    width: 100%;
+    border-spacing: 0px;
+}
+table tr td{
+    border: solid black 1px;
+    padding: 5px;
+}
+
+#filter_data {
+    padding:50px;
+}

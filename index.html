@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Data Search</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="//code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- heading -->
+    <div class="Nav_Bar">
+        <h3 id="Nav_Heading">Student Portal</h3>
+    </div>
+    <!-- main_body -->
+
+    <!-- search_section -->
+    <div class="Search_Section">
+         <!-- search_bar -->
+        <label for="search"></label>
+        <input type="text" name="search" id="search" placeholder="Search">
+        <!-- search_Button -->
+        <input type="button" value="Search" id="Search_Button" class="search_button">
+    </div>
+
+    <!-- Sort_section -->
+    <div class="Sort_Section">
+        <button class="Sort_Buttons" id="sort_az">Sort A -> Z</button>
+        <button class="Sort_Buttons" id="sort_za">Sort Z -> A</button>
+        <button class="Sort_Buttons" id="sort_marks">Sort By Marks</button>
+        <button class="Sort_Buttons" id="sort_passing">Sort By Passing</button>
+        <button class="Sort_Buttons" id="sort_class">Sort By Class</button>
+        <button class="Sort_Buttons" id="sort_gender">Sort By Gender</button>
+    
+    </div>
+    <!-- Result data-->
+    <div id="filter_data_div"></div>
+
+</body>
+</html>
